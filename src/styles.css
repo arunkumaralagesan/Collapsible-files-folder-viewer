@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.tree_container {
+  padding: 1rem;
+  border-left: 1px solid gray;
+  height: max-content;
+}
+
+.folder_container {
+  border-left: 1px solid salmon;
+  /* height: min-content; */
+}
+
+.folder_container > p {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.folder_container > div {
+  padding: 1rem;
+}
+
+.folder-open {
+  transform: rotate(90deg);
+  display: inline-block;
+}
+
+.folder-close {
+  transform: rotate(0deg);
+  display: inline-block;
+}
+
+.file_container {
+  font-style: italic;
+  border-left: 1px solid transparent;
+}
