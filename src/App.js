@@ -18,8 +18,7 @@ const FODLER_DETAILS = [
             childrens: [
               { type: "file", name: "App1.js" },
               { type: "file", name: "reducer1.js" },
-              { type: "file", name: "actions1.js" },
-              { type: "file", name: "NestedFile.js" }
+              { type: "file", name: "actions1.js" }
             ]
           },
           { type: "file", name: "App.js" },
