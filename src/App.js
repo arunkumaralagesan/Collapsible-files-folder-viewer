@@ -1,6 +1,8 @@
 import "./styles.css";
 import Tree from "./Tree";
 
+console.log("Check");
+
 const FODLER_DETAILS = [
   {
     type: "folder",
